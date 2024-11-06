@@ -16,7 +16,33 @@ PhD in Computer Science and Engineering
 * https://www.sciencedirect.com/science/article/pii/S1051200424003427?via%3Dihub
  * *Should I get a Ph.D.?* by Tim Hopper
 
+Skills
+======
+* Skill 1
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
 
-
-##### Work History
-##### 
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+  
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Service and leadership
+======
+* Currently signed in to 43 different slack teams
